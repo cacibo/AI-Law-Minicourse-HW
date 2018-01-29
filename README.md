@@ -1,4 +1,6 @@
 # AI-Law-Minicourse-HW
+
+RESULTS FROM JUPYTER NOTEBOOK:
 Found and verified text8.zip
 Data size 17005207
 Most common words (+UNK) [['UNK', 418391], ('the', 1061396), ('of', 593677), ('and', 416629), ('one', 411764)]
@@ -242,3 +244,18 @@ Nearest to american: mosquitia, english, frontal, quasi, mercantilism, and, cook
 Nearest to most: more, some, many, feeble, peacocks, ame, chambers, among,
 Nearest to such: known, well, these, many, clinicians, fanatic, kolbe, crunch,
 Nearest to during: in, after, from, throughout, until, before, dasyprocta, but,
+
+SUPREME COURT TUTORIAL:
+Step 1: collect and prepare data by importing into kernel. Link respository. And find ways to pull this data.
+Step 2: Find a way to collect data and input it into table.
+Step 3: Determine stop words by making a dictionary or vocabulary set.
+Step 4: Test the models you created. Find what topics the cases are on and apply it to the data.
+Step 5: Apply the model to the data.
+
+WORD2VEC TUTORIAL:
+Step 1: collect and prepare the data by downloading data to be used in the word2vec model. This can be done by downloading the scientific packages into the Python Kernel.
+Step 2: create a dictionary of 50000 words and replace words with their corresponding codes. This will create a connection between the actual words and their applicable codes. This in turn builds a vocabulary or dicationary from which the code will reference.
+Step 3: Try skip gram model for the first time using the words you inputted. Indicate the amount of data you want to use for this model.
+Step 4: With the data specified in Step 3, build and train a skip gram model. Here, indicate how many words you want to use. Words are displayed in the order of their code.
+Step 5: start the training of the gramp skip model. 
+Step 6: build a graph from the embeddings.
